@@ -1,0 +1,44 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <center>
+        <h1>Class Registration</h1>
+    </center>
+    <center>
+        <h4>Fill out the form carefully for registration</h4>
+    </center>
+    <form>
+        <h3>Student Name</h3>
+        <pre>
+<input type="text" id="first name"required>
+<label for="first name">first name</label>
+<input type="text" id="middle name">
+<label for="middle name">middle name</label>
+<input type="text" id="last name"required>
+<label for="last name">last name</label>
+</pre>
+        <label for="Gender">Gender</label>
+        <select name="Gender">
+            <option value="Please Select">Please Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <label for="mail">Student E-mail</label>
+        <input type="mail" id="mail" required placeholder="ex: myname@example.com"><br>
+        <label for="id">Student ID</label>
+        <input type="text" id="id" required>
+        <label for="select">List of Class</label>
+        <select name="select">
+            <option value="Please Select">Please Select</option>
+            <option value="Technical">Technical</option>
+            <option value="Communication">Communication</option>
+        </select><br>
+
+        <pre><center><label for="submit"></label>
+<input type="submit"id="submit"></center></pre>
+    </form>
+
+</html>
